@@ -13,7 +13,7 @@
 }
 .intro-main{
     margin-top: 30px;
-    background: linear-gradient(to bottom, #ffffff,#ffffff,#f5b070 );
+    /* background: linear-gradient(to bottom, #ffffff,#ffffff,#f5b070 ); */
 }
 .app img{
     height: 400px;
