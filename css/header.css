@@ -1,0 +1,52 @@
+.container{
+    max-width: 1200px;
+    padding: 20px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.main-header{
+    position: relative;
+    max-width: 1200px;
+}
+.main-header::after{
+    content: " ";
+    display: block;
+    border-bottom: solid 2px #676767;
+    width: 100%;
+    position: absolute;
+    margin-top: -40px;
+    transition: all 1.5s;
+
+}
+.menu-flex{
+    display: flex;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+}
+.menu-flex li a{
+    font-size: 24px;
+    font-family: "Poppins";
+    color: #676767;
+    font-weight: medium;
+    padding-block: 30px;
+}
+.menu-flex li a:hover{
+    color: #f27457;
+}
+
+@media (max-width: 800px){
+    .main-menu{
+        flex-direction: column;
+    }
+    .menu-flex{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .main-header::after{
+        display: none;
+    }
+}
