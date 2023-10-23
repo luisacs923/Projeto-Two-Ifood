@@ -2,20 +2,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
-    /*background: linear-gradient( to right, #F2A257, #CE4DA4);*/
-    background-image: url(/svg/linear.svg);
+    background: linear-gradient( to right, #F2A257, #CE4DA4);
+    /*background-image: url(/svg/linear.svg);*/
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
+    max-width: 1000px;
     padding: 40px;
     border-radius: 15px;
+}
+.intro-main{
+    margin-top: 30px;
 }
 .app img{
     height: 400px;
 }
 .texto-apre h3{
     font-size: 40px;
-    line-height: 1.4;
+    line-height: 1.425;
     font-family: "Poppins";
     font-weight: semibold;
     margin-bottom: 30px;
@@ -28,11 +32,37 @@
     font-weight: regular;
 }
 .intro h2{
-    margin-bottom: 50px;
-    font-size: 70px;
+    margin-bottom: 25px;
+    font-size: 60px;
     font-weight: 400;
     font-family: "Poppins";
     font-style: italic;
     color: #f27457;
+    margin-left: 80px;
+}
+
+@media(max-width: 800px){
+    .intro h2{
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .apresentacao{
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+        border-radius: none;
+        background-image: none;
+        background: linear-gradient( to right, #F2A257, #CE4DA4);
+        align-items: start;
+    }
+    .app img{
+        height: 250px;
+        width: 300px;
+    }
+    .texto-apre h3{
+        font-size: 26px;
+    }
+    .texto-apre p{
+        font-size: 18px;
+    }
 }
 
