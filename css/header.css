@@ -1,7 +1,4 @@
-.container{
-    max-width: 1200px;
-    padding: 20px;
-}
+
 .main-menu{
     display: flex;
     justify-content: space-between;

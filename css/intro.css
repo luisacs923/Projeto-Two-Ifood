@@ -1,0 +1,38 @@
+.apresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    /*background: linear-gradient( to right, #F2A257, #CE4DA4);*/
+    background-image: url(/svg/linear.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 15px;
+}
+.app img{
+    height: 400px;
+}
+.texto-apre h3{
+    font-size: 40px;
+    line-height: 1.4;
+    font-family: "Poppins";
+    font-weight: semibold;
+    margin-bottom: 30px;
+    color: white;
+}
+.texto-apre p{
+    font-size: 25px;
+    color: white;
+    font-family: "Poppins";
+    font-weight: regular;
+}
+.intro h2{
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: "Poppins";
+    font-style: italic;
+    color: #f27457;
+}
+
