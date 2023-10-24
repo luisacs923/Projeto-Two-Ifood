@@ -1,0 +1,64 @@
+#mercado {
+    padding: 16px;
+    background: linear-gradient(135deg, #f27457, #ce4da4);
+}
+
+.mCabecalho {
+    padding: 16px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.mGrupo {
+    display: flex;
+    justify-content: center;
+}
+
+.mCard {
+    background-color:#fff;
+    border-radius: 16px;
+    margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    padding: 16px; 
+    display:flex;
+    flex-flow: column;
+    align-items: flex-start;
+    color: #676767;
+}
+
+.mIcone {
+    padding: 8px 16px;
+    border-radius: 16px;
+    color:#fff;
+    font-size: 30px;    
+    margin: 0;
+}
+
+.mIconeLaranja {
+    background-color: #f27457;
+}
+
+.mIconeLilas {
+    background-color: #ce4da4;
+}
+
+.mTitulo {
+    font-size: large;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    font-weight: bold;
+
+}
+.mBotao {
+    padding: 4px 32px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 16px;
+    transition: background-color 0.3s, color 0.3s
+}
+
+.mBotao:hover {
+    background-color: #f27457;
+    color:#fff;
+}
