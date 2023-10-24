@@ -1,8 +1,6 @@
 #mercado {
-    padding: 16px;
-    background: linear-gradient(135deg, #f27457, #ce4da4);
-}
-
+    padding: 16px;}
+   
 .mCabecalho {
     padding: 16px;
     color: #fff;
@@ -24,6 +22,7 @@
     flex-flow: column;
     align-items: flex-start;
     color: #676767;
+    flex:1;
 }
 
 .mIcone {
