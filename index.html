@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-    <title>iFood</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container container-border">
-        <nav class="main-menu">
-          <h1 class="logo"><img src="svg/logo-ifood2.svg" alt="Icone do ifood"></h1>
-          <ul class="menu-flex">
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Mercado</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="intro-main">
-      <div class="container">
-        <div class="intro">
-          <h2>Um novo Ifood para você!</h2>
-          <div class="apresentacao">
-            <picture class="app"><img src="svg/IlustracaoApp.svg" alt=""></picture>
-            <div class="texto-apre">
-              <h3>Conheça nosso novo <br> app, agora com mais segurança nos seus pedidos!</h3>
-              <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br>
-                elit. Malesuada sit feugiat etiam <br> risus, massa sit.</p>
-            </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/aab7a45cd2.js" crossorigin="anonymous"></script>
+
+  <title>iFood</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container container-border">
+      <nav class="main-menu">
+        <h1 class="logo"><img src="svg/logo-ifood2.svg" alt="Icone do ifood"></h1>
+        <ul class="menu-flex">
+          <li><a href="#">Cardápio</a></li>
+          <li><a href="#">Mercado</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="intro-main">
+    <div class="container">
+      <div class="intro">
+        <h2>Um novo Ifood para você!</h2>
+        <div class="apresentacao">
+          <picture class="app"><img src="svg/IlustracaoApp.svg" alt=""></picture>
+          <div class="texto-apre">
+            <h3>Conheça nosso novo <br> app, agora com mais segurança nos seus pedidos!</h3>
+            <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br>
+              elit. Malesuada sit feugiat etiam <br> risus, massa sit.</p>
           </div>
         </div>
       </div>
-    </section>
-    <section id="menu"></section>
-    <main id="cardapio"></main>
-    <section id="mercado"></section>
-    <section id="sobre"></section>
-    <footer></footer>
+    </div>
+  </section>
+  <section id="menu"></section>
+  <main id="cardapio"></main>
+  <section id="mercado">
+    <h2 class="mCabecalho">Mercado</h2>
+    <div class="mGrupo">
+      <div class="mCard">
+        <div class="mIcone mIconeLaranja">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="mTitulo">
+          Feira
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed repellendus aliquam nobis ut nihil!
+          </p>
+        </div>
+      </div>
+      <div class="mCard">
+        <div class="mIcone mIconeLilas">
+          <i class="fa-solid fa-notes-medical"></i>
+        </div>
+        <div class="mTitulo">
+          Farmácia
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed repellendus aliquam nobis ut nihil!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mGrupo">
+      <div class="mCard">
+        <div class="mIcone mIconeLilas">
+          <i class="fa-solid fa-shield-dog"></i>
+        </div>
+        <div class="mTitulo">
+          Pet Shop
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed repellendus aliquam nobis ut nihil!
+          </p>
+        </div>
+      </div>
+      <div class="mCard">
+        <div class="mIcone mIconeLaranja">
+          <i class="fa-solid fa-wine-bottle"></i>
+        </div>
+        <div class="mTitulo">
+          Bebidas
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed repellendus aliquam nobis ut nihil!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mGrupo">
+      <div class="mBotao">
+        Criar Conta
+      </div>
+      <div class="mBotao">
+        Saiba Mais
+      </div>
+    </div>
+  </section>
+  <section id="sobre"></section>
+  <footer></footer>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>
