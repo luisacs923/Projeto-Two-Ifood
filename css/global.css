@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url(../imagens/Ifood.png);
+  background-size: cover;
 }
 .container{
   max-width: 1200px;
