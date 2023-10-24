@@ -18,7 +18,9 @@
     <header class="main-header">
       <div class="container container-border">
         <nav class="main-menu">
-          <h1 class="logo"><img src="svg/logo-ifood2.svg" alt="Icone do ifood"></h1>
+          <h1 class="logo">
+            <img src="svg/logo-ifood2.svg" alt="Icone do ifood" />
+          </h1>
           <ul class="menu-flex">
             <li><a href="#">Cardápio</a></li>
             <li><a href="#">Mercado</a></li>
@@ -32,18 +34,63 @@
         <div class="intro">
           <h2>Um novo Ifood para você!</h2>
           <div class="apresentacao">
-            <picture class="app"><img src="svg/IlustracaoApp.svg" alt=""></picture>
+            <picture class="app"
+              ><img src="svg/IlustracaoApp.svg" alt=""
+            /></picture>
             <div class="texto-apre">
-              <h3>Conheça nosso novo <br> app, agora com mais segurança nos seus pedidos!</h3>
-              <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br>
-                elit. Malesuada sit feugiat etiam <br> risus, massa sit.</p>
+              <h3>
+                Conheça nosso novo <br />
+                app, agora com mais segurança nos seus pedidos!
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing <br />
+                elit. Malesuada sit feugiat etiam <br />
+                risus, massa sit.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section id="menu"></section>
-    <main id="cardapio"></main>
+
+    <main id="cardapio">
+      <div class="container-cardapio">
+        <h2>Cardápio</h2>
+        <div id="cardapio-cards">
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+        </div>
+        <img class="arrow" src="./svg/arrow-right.svg" alt="" />
+        <div class="dots">
+          <img src="./svg/Dots.svg" alt="" />
+        </div>
+      </div>
+    </main>
+
     <section id="mercado"></section>
     <section id="sobre"></section>
     <footer></footer>
