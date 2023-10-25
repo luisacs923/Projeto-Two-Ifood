@@ -4,13 +4,18 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url(../imagens/Ifood.png);
+  background-size: cover;
 }
-.container{
+.container {
   max-width: 1200px;
-  padding: 20px;
+  /* padding: 20px; */
 }

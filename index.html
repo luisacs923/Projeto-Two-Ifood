@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>iFood</title>
   </head>
@@ -18,36 +24,208 @@
     <header class="main-header">
       <div class="container container-border">
         <nav class="main-menu">
-          <h1 class="logo"><img src="svg/logo-ifood2.svg" alt="Icone do ifood"></h1>
+          <h1 class="logo">
+            <img src="svg/logo-ifood2.svg" alt="Icone do ifood" />
+          </h1>
           <ul class="menu-flex">
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Mercado</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#mercado">Mercado</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
+          <div class="menu-mobile">
+            <i class="fa-solid fa-bars" style="color: #f27457"></i>
+          </div>
         </nav>
       </div>
     </header>
+
     <section class="intro-main">
       <div class="container">
         <div class="intro">
-          <h2>Um novo Ifood para você!</h2>
+          <h2>Um novo iFood para você!</h2>
           <div class="apresentacao">
-            <picture class="app"><img src="svg/IlustracaoApp.svg" alt=""></picture>
+            <picture class="app"
+              ><img src="svg/IlustracaoApp.svg" alt=""
+            /></picture>
             <div class="texto-apre">
-              <h3>Conheça nosso novo <br> app, agora com mais segurança nos seus pedidos!</h3>
-              <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br>
-                elit. Malesuada sit feugiat etiam <br> risus, massa sit.</p>
+              <h3>
+                Conheça nosso novo <br />
+                app, agora com mais segurança nos seus pedidos!
+              </h3>
+              <p>
+                Descubra um novo app de comida que vai satisfazer seus desejos
+                gastronômicos com facilidade e sabor. Experimente agora!
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="menu"></section>
-    <main id="cardapio"></main>
-    <section id="mercado"></section>
-    <section id="sobre"></section>
-    <footer></footer>
 
-    <script src="./script.js"></script>
+    <main id="cardapio">
+      <div class="container-cardapio">
+        <h2>Cardápio</h2>
+        <div id="cardapio-cards">
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+
+          <article class="cardapio-card">
+            <h3>Restaurante</h3>
+            <p class="descricao-produto">Descrição do prato</p>
+            <img src="./assets/image-food.jpg" alt="Produto do cardápio" />
+            <p class="preco-produto">R$ 10,00</p>
+            <button>peça agora!</button>
+          </article>
+        </div>
+        <img class="arrow" src="./svg/arrow-right.svg" alt="" />
+        <div class="dots">
+          <img src="./svg/Dots.svg" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <section id="mercado">
+      <h2 class="mCabecalho">Mercado</h2>
+      <div class="mGrupo">
+        <div class="mCard">
+          <div class="mIcone mIconeLaranja">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="mTitulo">Feira</div>
+          <div>
+            <p>
+              Feira online: frescor, saúde e comodidade na sua porta.
+              Experimente nossas ofertas especiais hoje mesmo!
+            </p>
+          </div>
+        </div>
+        <div class="mCard">
+          <div class="mIcone mIconeLilas">
+            <i class="fa-solid fa-notes-medical"></i>
+          </div>
+          <div class="mTitulo">Farmácia</div>
+          <div>
+            <p>
+              Produtos farmacêuticos essenciais: saúde e bem-estar ao alcance de
+              todos. Encontre o que precisa na farmácia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mGrupo">
+        <div class="mCard">
+          <div class="mIcone mIconeLilas">
+            <i class="fa-solid fa-shield-dog"></i>
+          </div>
+          <div class="mTitulo">Pet Shop</div>
+          <div>
+            <p>
+              Produtos de Pet Shop: amor, diversão e cuidado para seu melhor
+              amigo de quatro patas. Conheça nossa seleção.
+            </p>
+          </div>
+        </div>
+        <div class="mCard">
+          <div class="mIcone mIconeLaranja">
+            <i class="fa-solid fa-wine-bottle"></i>
+          </div>
+          <div class="mTitulo">Bebidas</div>
+          <div>
+            <p>
+              Refresque seu dia com nossa seleção de bebidas geladas e
+              saborosas. Encontre a sua favorita agora!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mGrupo">
+        <div class="mBotao">Criar Conta</div>
+        <div class="mBotao">Saiba Mais</div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div>
+        <h2>Sobre Nós</h2>
+        <p>
+          Seja bem-vindo a uma jornada inspiradora através da história e dos
+          valores que tornam a iFood uma referência no setor de delivery de
+          alimentos. Te convidamos para se conectar com a missão e a paixão que
+          movem a iFood e entender como ela continua a revolucionar o modo como
+          experimentamos a comida no século 21.
+        </p>
+      </div>
+      <div>
+        <h2>Entre em contato!</h2>
+        <form>
+          <label for="name"
+            ><input type="text" id="name" name="name" placeholder="nome:"
+          /></label>
+          <label for="email"
+            ><input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email:"
+              required
+          /></label>
+          <label for="comentario">
+            <textarea
+              id="comentario"
+              name="comentario"
+              placeholder="digite aqui seu comentário:"
+              rows="5"
+            ></textarea>
+          </label>
+        </form>
+      </div>
+    </section>
+
+    <div class="divisor"></div>
+
+    <footer>
+      <img
+        src="imagens/ifood-logo-bran-gran-9800797.png"
+        width="167px"
+        alt="Ícone do ifood"
+      />
+      <div class="fone-email">
+        <p>
+          <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff"></i>
+          contato@ifood.com.br
+        </p>
+        <p>
+          <i class="fa-solid fa-phone fa-xl" style="color: #ffffff"></i> (xx)
+          55555-5555
+        </p>
+      </div>
+      <div class="icones-social-media">
+        <a href=""
+          ><i class="fa-brands fa-x-twitter fa-2xl" style="color: #ffffff"></i
+        ></a>
+        <a href=""
+          ><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff"></i
+        ></a>
+        <a href=""
+          ><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff"></i
+        ></a>
+        <a href=""
+          ><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
